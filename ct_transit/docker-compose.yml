@@ -20,5 +20,7 @@ services:
             - POSTGRES_USER=ctt_db_service_id
             - POSTGRES_PASSWORD=secure_ct_transit_pass
             - POSTGRES_DB=videopull
+        ports:
+            - "5433:5432"
 volumes:
     postgres_data:
