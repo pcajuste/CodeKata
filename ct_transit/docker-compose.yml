@@ -10,3 +10,13 @@ services:
             - 5000:5000
         env_file:
             - ./.env.dev
+    db:
+        image: postgres:12.0-alpine
+        volumes:
+            - postgres_data:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=ctt_db_service_id
+            - POSTGRES_PASSWORD=secure_ct_transit_pass
+            - POSTGRES_DB=videopull
+volumes:
+    postgres_data:
