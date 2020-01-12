@@ -1,0 +1,4 @@
+# Ignore everything in this directory
+ct_env
+# Except this file
+!.gitignore
