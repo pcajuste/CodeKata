@@ -1,4 +1,5 @@
 # Ignore everything in this directory
+*.pyc
 ct_env
 # Except this file
 !.gitignore
