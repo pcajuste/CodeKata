@@ -1,0 +1,12 @@
+id,username,password_hash,email
+1,John,123,test@gmail.com
+2,Robert,1234,test1@gmail.com
+3,Eric,2345,test2@gmail.com
+4,Adam,3456,test3@gmail.com
+5,Paul,4567,test4@gmail.com
+6,Chris,5678,test5@gmail.com
+7,David,6789,test6@gmail.com
+8,Michael,7900,test7@gmail.com
+9,Steve,9011,test8@gmail.com
+10,Frank,10122,test9@gmail.com
+11,Oscar,11233,test10@gmail.com
