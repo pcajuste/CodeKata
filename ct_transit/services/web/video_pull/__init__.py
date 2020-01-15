@@ -52,7 +52,7 @@ class HD(db.Model):
     __tablename__ = 'hard_drive'
     id = db.Column(db.Integer, primary_key=True)
     serial_num = db.Column(db.String(16), unique=True, index=True)
-    condition = db.Column(db.Boolean)
+    condition_id = db.Column(db.Integer, db.ForeignKey('condition.id'), index=True)
     status_id = db.Column(db.Integer, db.ForeignKey('status.id'), index=True)
     buses = db.relationship('bus_hd_xref', backref='hd')
 
