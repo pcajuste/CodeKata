@@ -1,0 +1,8 @@
+\copy bus from 'bus.csv' with delimiter ',' csv header
+\copy condition from 'condition.csv' with delimiter ',' csv header
+\copy reason from 'reason.csv' with delimiter ',' csv header
+\copy hard_drive from 'hard_drive.csv' with delimiter ',' csv header
+\copy employee from 'employee.csv' with delimiter ',' csv header
+\copy role from 'role.csv' with delimiter ',' csv header
+\copy emp_role_xref from 'emp_role_xref.csv' with delimiter ',' csv header
+\copy bus_hd_xref from 'bus_hd_xref.csv' with delimiter ',' csv header

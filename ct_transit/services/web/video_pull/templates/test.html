@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Video Request - Internal Server Error{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>Test</h1>
+
+<select name="colour" method="GET" action="/">
+  <option value="{{colours[0]}}" selected>{{colours[0]}}</option>
+  {% for colour in colours[1:] %}
+    <option value="{{colour}}">{{colour}}</option>
+  {% endfor %}
+</select>
+
+</div>
+{% endblock %}
